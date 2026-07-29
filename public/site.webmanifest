@@ -1,0 +1,20 @@
+{
+  "name": "Drive and Fight Wiki",
+  "short_name": "Drive and Fight",
+  "description": "Drive and Fight codes and guides for truck upgrades, trailers, loot, skills, Air Drops, and complete Roblox runs.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#F3A23A",
+  "background_color": "#0B0D0C",
+  "display": "standalone"
+}
