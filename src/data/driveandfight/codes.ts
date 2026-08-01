@@ -7,7 +7,7 @@ export const activeCodes: GameCode[] = [
     reward:
       'The official description does not name the reward. Use the live success popup as the final reward check.',
     status: 'active',
-    lastChecked: '2026-07-29',
+    lastChecked: '2026-07-31',
     sources: [officialExperienceSource],
     notes:
       'Published directly in the current Roblox experience description. Copy the capitalization and numbers exactly.',
@@ -17,7 +17,7 @@ export const activeCodes: GameCode[] = [
 export const expiredCodes: GameCode[] = [];
 
 export const codeStatusSummary = {
-  checkedAt: '2026-07-29',
+  checkedAt: '2026-07-31',
   activeCount: activeCodes.length,
   expiredCount: expiredCodes.length,
   nextMilestone: '15,000 likes',
