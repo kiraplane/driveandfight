@@ -316,7 +316,7 @@ export const topics: Record<string, TopicPage> = {
       {
         heading: 'Treat the title as event confirmation, not a loot table',
         paragraphs: [
-          'Roblox currently names the experience “drive and fight [AIR DROPS],” which is enough to confirm the feature is part of the live update. It does not confirm every possible reward, timer, spawn rule, or future balance value.',
+          'Roblox previously promoted Air Drops in the experience title. The live title has since moved to the Blossom update, so use this page for the durable Air Drop preparation loop rather than assuming every event value is still unchanged.',
           'Use the live objective and item cards for the current event details. This page focuses on the preparation decisions that remain useful if the exact reward pool changes after a Beta shutdown.',
         ],
       },
@@ -363,7 +363,7 @@ export const topics: Record<string, TopicPage> = {
       {
         question: 'Are Air Drops live in Drive and Fight?',
         answer:
-          'Yes. Air Drops are named in the current official Roblox experience title checked on July 29, 2026.',
+          'Air Drops were promoted in the official title before the August 1 Blossom update. Recheck the live objective because event availability can rotate during Beta.',
       },
       {
         question: 'What can Air Drops contain?',
@@ -386,7 +386,7 @@ export const topics: Record<string, TopicPage> = {
   updates: {
     route: '/updates',
     label: 'Beta Updates',
-    eyebrow: 'Checked July 29, 2026',
+    eyebrow: 'Checked August 1, 2026',
     title: 'Drive and Fight Beta and Update Status',
     description:
       'Track the current Drive and Fight Roblox title, Beta identity, Air Drops feature, official code milestone, and facts to recheck after updates.',
@@ -397,19 +397,19 @@ export const topics: Record<string, TopicPage> = {
         heading: 'The current experience is a live Beta',
         paragraphs: [
           'Roblox maps Place ID 97960402739248 to Universe ID 7961333063 and lists 646 Studios as the Group creator. The description explicitly warns players to expect bugs, glitches, and frequent updates.',
-          'The current title promotes Air Drops. Search snapshots captured an earlier gun-skins title, which confirms that the feature label can rotate quickly even while the Place and Universe remain stable.',
+          'The current title promotes the Blossom update. Earlier title snapshots promoted Air Drops and gun skins, confirming that the feature label can rotate quickly even while the Place and Universe remain stable.',
         ],
         bullets: [
           'Place ID: 97960402739248',
           'Universe ID: 7961333063',
           'Creator Group: 646 Studios (3239513)',
-          'Current title: drive and fight [AIR DROPS]',
+          'Current title: drive and fight [BLOSSOM]',
         ],
       },
       {
         heading: 'The official code milestone is visible now',
         paragraphs: [
-          'The current description tells players to use code 7500LIKE and promises a new code at 15,000 likes. The unreleased milestone string is not published, so it should not be guessed.',
+          'The current description tells players to use code 25KLIKES and promises a new code at 35,000 likes. The unreleased milestone string is not published, so it should not be guessed.',
           'The codes page keeps the official entry separate from expired or unverified strings. Recheck the description after a title update because milestone codes can change faster than the rest of the guide.',
         ],
         links: [{ label: 'Open the current codes page', href: '/codes' }],
@@ -443,7 +443,7 @@ export const topics: Record<string, TopicPage> = {
       {
         question: 'What is the latest feature?',
         answer:
-          'The official title promoted Air Drops when checked on July 29, 2026.',
+          'The official title promotes the Blossom update as of August 1, 2026. Air Drops were the previous promoted feature.',
       },
     ],
     relatedRoutes: [

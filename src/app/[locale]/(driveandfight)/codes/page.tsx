@@ -40,17 +40,17 @@ const faq = [
   {
     question: 'What is the active Drive and Fight code?',
     answer:
-      '7500LIKE is published in the current official Roblox experience description checked on July 29, 2026.',
+      '25KLIKES is published in the current official Roblox experience description checked on August 1, 2026.',
   },
   {
-    question: 'What reward does 7500LIKE give?',
+    question: 'What reward does 25KLIKES give?',
     answer:
       'The official description does not name the reward. Use the current in-game success popup and inventory change as the final check.',
   },
   {
     question: 'When is the next Drive and Fight code?',
     answer:
-      'The official description promises another code at 15,000 likes but does not publish the future string.',
+      'The official description promises another code at 35,000 likes but does not publish the future string.',
   },
   {
     question: 'Why is a Drive and Fight code not working?',
@@ -70,7 +70,7 @@ export default function CodesPage() {
         description:
           'Current official Drive and Fight code, milestone status, redeem checks, and safe verification steps.',
         datePublished: '2026-07-29',
-        dateModified: '2026-07-29',
+        dateModified: '2026-08-01',
         mainEntityOfPage: pageUrl,
         publisher: {
           '@type': 'Organization',
@@ -97,7 +97,7 @@ export default function CodesPage() {
       <JsonLd data={jsonLd} />
       <header className="rounded-2xl border border-[#E8C36A]/30 bg-[radial-gradient(circle_at_top_right,rgba(232,195,106,.2),transparent_45%),#141816] p-6 md:p-8">
         <Badge className="bg-[#E8C36A] text-[#17100A]">
-          Checked July 29, 2026
+          Checked August 1, 2026
         </Badge>
         <h1 className="mt-4 text-4xl font-black md:text-5xl">
           Drive and Fight Codes
@@ -209,7 +209,7 @@ export default function CodesPage() {
         <div className="flex items-start gap-4">
           <CircleAlert className="mt-1 size-6 shrink-0 text-[#E8C36A]" />
           <div>
-            <h2 className="text-2xl font-black">Next code at 15,000 likes</h2>
+            <h2 className="text-2xl font-black">Next code at 35,000 likes</h2>
             <p className="mt-3 text-sm leading-7 text-stone-300">
               The official description promises a new code at{' '}
               {codeStatusSummary.nextMilestone}. No future code string is

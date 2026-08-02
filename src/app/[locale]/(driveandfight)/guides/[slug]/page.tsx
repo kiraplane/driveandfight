@@ -52,7 +52,7 @@ export default async function GuidePage({
         headline: guide.title,
         description: guide.seoDescription,
         datePublished: '2026-07-29',
-        dateModified: '2026-07-29',
+        dateModified: '2026-08-01',
         image: coverUrl,
         mainEntityOfPage: pageUrl,
         publisher: {
