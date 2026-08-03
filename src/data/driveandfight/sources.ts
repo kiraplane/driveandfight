@@ -1,6 +1,6 @@
 import type { DataSource, VideoSource } from './types';
 
-export const checkedAt = '2026-08-01';
+export const checkedAt = '2026-08-03';
 
 export const officialGameFacts = {
   name: 'drive and fight',
@@ -14,7 +14,7 @@ export const officialGameFacts = {
   universeId: '7961333063',
   genre: 'Adventure / Exploration / Survival',
   status: 'Beta',
-  currentTitle: '🚚 drive and fight [🌸 BLOSSOM]',
+  currentTitle: '🚚 drive and fight [🌸 NEW BIOME]',
   officialWebsite: null,
   verifiedDiscordUrl: null,
   verifiedTrelloUrl: null,

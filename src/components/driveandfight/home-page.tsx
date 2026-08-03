@@ -99,7 +99,7 @@ const faq = [
   {
     question: 'What is the current Drive and Fight code?',
     answer:
-      '25KLIKES is published in the current official Roblox description. Another code is promised at 35,000 likes, but the unreleased string is not listed.',
+      '25KLIKES is published in the current official Roblox description. Another code is promised at 50,000 likes, but the unreleased string is not listed.',
   },
   {
     question: 'What should a new player do first?',

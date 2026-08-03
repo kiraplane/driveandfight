@@ -18,7 +18,7 @@ export const guides: Guide[] = [
       '"drive and fight" roblox',
     ],
     sourceNotes:
-      'Official game description, badges, current Roblox APIs, and exact-Place gameplay rechecked August 1, 2026. Volatile objective order and prices remain tied to the live game.',
+      'Official game description, badges, current Roblox APIs, and exact-Place gameplay rechecked August 3, 2026. Volatile objective order and prices remain tied to the live game.',
     coverImageUrl: videos.currentGameplay.thumbnailUrl,
     video: videos.currentGameplay,
     tags: ['beginner', 'first run', 'truck', 'survival'],
