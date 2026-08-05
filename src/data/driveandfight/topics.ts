@@ -306,12 +306,12 @@ export const topics: Record<string, TopicPage> = {
   'air-drops': {
     route: '/air-drops',
     label: 'Air Drops',
-    eyebrow: 'Current beta event',
+    eyebrow: 'Previous beta event route',
     title: 'Drive and Fight Air Drops Guide',
     description:
       'Prepare for Drive and Fight Air Drops with inventory space, ammunition, healing, a protected truck, and a clear leave condition.',
     summary:
-      'The current official title confirms Air Drops are live, but it does not publish a permanent loot table. Prepare the run to contest the event without sacrificing fuel, healing, or the exit.',
+      'Air Drops were previously promoted in the official title, but the live title no longer names an event. Use this preparation route only when the objective is visible in the current server.',
     sections: [
       {
         heading: 'Treat the title as event confirmation, not a loot table',
@@ -386,7 +386,7 @@ export const topics: Record<string, TopicPage> = {
   updates: {
     route: '/updates',
     label: 'Beta Updates',
-    eyebrow: 'Checked August 3, 2026',
+    eyebrow: 'Checked August 4, 2026',
     title: 'Drive and Fight Beta and Update Status',
     description:
       'Track the current Drive and Fight Roblox title, Beta identity, Air Drops feature, official code milestone, and facts to recheck after updates.',
@@ -397,13 +397,13 @@ export const topics: Record<string, TopicPage> = {
         heading: 'The current experience is a live Beta',
         paragraphs: [
           'Roblox maps Place ID 97960402739248 to Universe ID 7961333063 and lists 646 Studios as the Group creator. The description explicitly warns players to expect bugs, glitches, and frequent updates.',
-          'The current title promotes a New Biome update. Earlier title snapshots promoted Blossom, Air Drops, and gun skins, confirming that the feature label can rotate quickly even while the Place and Universe remain stable.',
+          'The live title returned to plain drive and fight on August 4. The August 3 New Biome label and earlier Blossom, Air Drops, and gun-skins labels are historical snapshots, confirming that promoted features can rotate quickly while the Place and Universe remain stable.',
         ],
         bullets: [
           'Place ID: 97960402739248',
           'Universe ID: 7961333063',
           'Creator Group: 646 Studios (3239513)',
-          'Current title: drive and fight [NEW BIOME]',
+          'Current title: drive and fight',
         ],
       },
       {
@@ -443,7 +443,7 @@ export const topics: Record<string, TopicPage> = {
       {
         question: 'What is the latest feature?',
         answer:
-          'The official title promotes a New Biome update as of August 3, 2026. Blossom and Air Drops were previous promoted features.',
+          'The live title is plain drive and fight as of August 4, 2026. New Biome, Blossom, and Air Drops remain previous promoted-feature snapshots.',
       },
     ],
     relatedRoutes: [
